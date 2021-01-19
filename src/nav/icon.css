@@ -1,0 +1,14 @@
+.icon {
+  display: inline-block;
+}
+
+.icon svg {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+}
+
+.icon svg:hover {
+  color: red;
+  transition: 0.4s ease-in-out;
+}
