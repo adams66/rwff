@@ -9,6 +9,8 @@
 body {
   background-color: #1f253d;
   font-family: "Abril Fatface", cursive;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 ::-webkit-scrollbar {
