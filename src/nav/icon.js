@@ -1,6 +1,6 @@
 import React from "react";
 import "./icon.css";
-import { AiFillPropertySafety, AiOutlineHome } from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
 
 function Icon(props) {
   return (
