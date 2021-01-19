@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "./nav/navbar";
-import './container.css';
+
 import Chief from "./nav/grid/Assets/4kchief.png";
+import "./container.css";
 
 function Container() {
   const divStyle = {
     width: "100%",
     height: "100vh",
-    backgroundImage: 'url(' + Chief + ')',
+    backgroundImage: `url(${Chief})`,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover"
@@ -22,8 +23,7 @@ function Container() {
     width: "100%",
     height: "100%",
     fontSize: "3.8rem",
-    color: "#fff",
-  
+    color: "#fff"
   };
 
   return (

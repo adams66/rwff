@@ -10,3 +10,7 @@ body {
   background-color: #1f253d;
   font-family: "Abril Fatface", cursive;
 }
+
+::-webkit-scrollbar {
+  width: 3px;
+}
